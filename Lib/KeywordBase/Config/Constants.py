@@ -1,0 +1,2 @@
+c_OK = c_ON = c_VALID = c_ENABLE = c_TRUE = c_ACTIVE = 1
+c_NOT_OK = c_OFF = c_INVALID = c_DISABLE = c_FALSE = c_INACTIVE= 0
