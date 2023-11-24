@@ -273,6 +273,10 @@ class UseCaseTRAINING():
         print(Algorithms.ReturnBinarySearchPositionIterative(my_list, 10))
         print(Algorithms.ReturnAllBinarySearchPositions(my_list, 10))
 
+        x = 67
+        print(Base2Operations.ConvertB10ToB2(x))
+        print(Base2Operations.ConvertB10ToB16(x))
+
 UseCaseTRAINING = UseCaseTRAINING()
 
 UseCaseTRAINING.Execute()
