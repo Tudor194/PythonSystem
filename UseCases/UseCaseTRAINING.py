@@ -277,6 +277,9 @@ class UseCaseTRAINING():
         print(Base2Operations.ConvertB10ToB2(x))
         print(Base2Operations.ConvertB10ToB16(x))
 
+        x = 100101101
+        print(Base2Operations.ConvertB2ToB10(x))
+
 UseCaseTRAINING = UseCaseTRAINING()
 
 UseCaseTRAINING.Execute()

@@ -21,11 +21,18 @@ class Base2Operations():
 
     def ConvertB2ToB10(self, x):
         """
-        :param x:
-        :return:
+        :param x: 100101101
+        :return: 301
         """
         try:
-            pass
+            x = int(x)
+            result = 0
+            power = 0
+            while x > 0:
+                x, reminder = divmod(x, 10)
+                result += reminder * (2 ** power)
+                power += 1
+            return result
         except TypeError:
             print("Error: Incorrect data type!")
 
