@@ -157,10 +157,10 @@ new = PhotoImage(file = "new.png")
 Button(root, image = Open, bg = "#323846", bd = 0, command = open_file).place(x = 30, y = 30)
 Button(root, image = Save, bg = "#323846", bd = 0, command = save).place(x = 30, y = 145)
 Button(root, image = Run, bg = "#323846", bd = 0, command = run).place(x = 30, y = 260)
-Button(root, image = EXIT, bg = "#323846", bd = 0, command = on_closing).place(x = 30, y = 650)
-Button(root, image = WB, bg = "#323846", bd = 0, command = open_whiteboard).place(x = 30, y = 510)
+Button(root, image = EXIT, bg = "#323846", bd = 0, command = on_closing).place(x = 30, y = 665)
+Button(root, image = WB, bg = "#323846", bd = 0, command = open_whiteboard).place(x = 30, y = 440)
 Button(root, image = TE, bg = "#323846", bd = 0, command = open_text_editor).place(x = 30, y = 390)
-Button(root, image = new, bg = "#323846", bd = 0, command = NEW).place(x = 30, y = 580)
+Button(root, image = new, bg = "#323846", bd = 0, command = NEW).place(x = 30, y = 550)
 
 root.protocol("WM_DELETE_WINDOW", on_closing1)
 

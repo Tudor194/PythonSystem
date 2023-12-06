@@ -19,6 +19,16 @@ class Base2Operations():
         except TypeError:
             print("Error: Incorrect data type!")
 
+    def ConvertB2ToB10(self, x):
+        """
+        :param x:
+        :return:
+        """
+        try:
+            pass
+        except TypeError:
+            print("Error: Incorrect data type!")
+
     def ConvertB10ToB16(self, x):
         """
         :param x: 67
